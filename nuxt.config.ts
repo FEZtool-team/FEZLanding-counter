@@ -63,6 +63,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       baseURL: process.env.BASE_URL || "",
+      endDate: process.env.END_DATE || '1405/01/01'
     },
   },
 });

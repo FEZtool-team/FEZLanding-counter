@@ -3,7 +3,9 @@ import { ref } from "vue";
 import VueCountdown from "@chenfengyuan/vue-countdown";
 import moment from "moment-jalaali";
 
-const targetDate = moment(process.env.END_TIME, "jYYYY/jM/jD");
+const config = useRuntimeConfig();
+
+const targetDate = moment(config.public.endDate, "jYYYY/jM/jD");
 const now = moment();
 const diff = targetDate.diff(now);
 const timeleft = ref(parseInt(moment(diff).format("x")));
