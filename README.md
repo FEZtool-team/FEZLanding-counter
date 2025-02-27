@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/936283911.svg)](https://doi.org/10.5281/zenodo.14938490)
+
 # 🚀 FEZLanding-Counter  
 
 **FEZLanding-Counter** is a lightweight and efficient Nuxt 3 project designed to provide an interactive counter for tracking events, users, or any other custom data.  
